@@ -4,6 +4,7 @@ import Link from '../components/Link';
 
 const mapStateToProps = (state, ownProps) => ({
     active: ownProps.filter === state.visibilityFilter,
+    text: ownProps.text,
 });
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
